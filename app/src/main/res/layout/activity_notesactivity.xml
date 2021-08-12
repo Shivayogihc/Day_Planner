@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notesactivity">
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="@color/color1"
+        app:fab_addButtonColorPressed="@color/color4"
+        app:fab_addButtonPlusIconColor="@color/color3"
+        app:fab_labelStyle="@style/custom_fab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/ic_baseline_work_24"
+            android:background="@color/color1"
+            app:fab_size="mini"
+            app:fab_title="Add Work"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_action_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color4"
+            app:fab_icon="@drawable/ic_baseline_library_books_24"
+            app:fab_size="mini"
+            app:fab_title="Add Study"/>
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Theme.NotesApptutorial.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.NotesApptutorial.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NotesApptutorial.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="custom_fab">
+        <item name="android:background">@color/color3</item>
+        <item name="android:textColor">@color/color4</item>
+    </style>
+</resources>

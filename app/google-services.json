@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1007618549184",
+    "firebase_url": "https://personalplanner-b28ef-default-rtdb.firebaseio.com",
+    "project_id": "personalplanner-b28ef",
+    "storage_bucket": "personalplanner-b28ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007618549184:android:95d37fc7c63943d025d425",
+        "android_client_info": {
+          "package_name": "com.example.notesapptutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007618549184-7ijdnf5r70rb07gq051ni91lp6goi4vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notesapptutorial",
+            "certificate_hash": "3c63a061b94162aa06de77d5b0eb3d0bdaf2db7c"
+          }
+        },
+        {
+          "client_id": "1007618549184-m4fm7qmaa15cq1i54rrp1e485f8pmtdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRVV3bJVPPEQkNjA3Xj-XTcN2_p42z6Tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007618549184-m4fm7qmaa15cq1i54rrp1e485f8pmtdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
